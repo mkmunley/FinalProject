@@ -1,5 +1,5 @@
 ---
-title: "Final Project"
+title: "Evaluating Alternative Bait Ingredients for the Channeled Whelk Fishery"
 author: "Mary Kate Munley"
 date: "12/2/2021"
 output: pdf_document
@@ -13,14 +13,16 @@ knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
 
 # **Background**
 
-The channeled whelk (*Busycotypus canaliculatus*) is a large, predatory marine gastropod that is an important commercial fishery in the United States (Edwards and Harasewych, 1988). The channeled whelk is an attractive fishery species, compared to other marine gastropods, due to its high market price and demand. They are worth around \$4 a pound live with the shell on, making them one of the higher valued gastropods (C. McKinney, pers. comm., Ocean C Star, New Bedford). The demand for whelk meat primarily comes from Taiwan, Hong Kong, Singapore, and Japan however, there is also a demand from domestic specialty markets (Kaplan & Boyer, 1992). The whelk fishery has grown significantly since its beginnings in the 1970s when whelks were primarily caught as bycatch from the lobster fishery. With the decline in southern New England lobster catches and the increase in the overseas market demand for whelk, many Cape Cod, Martha’s Vineyard, and Nantucket fishermen now primarily target whelk. Increase in market demand coupled with rising prices have placed more fishing pressure on all whelk populations. In Massachusetts, channeled whelk landings peaked in 2012 at 3.6 million lbs., valued at \$6.2 million (Nelson et al., 2018). Since 2012, landings have decreased, and in 2018,1.5 million pounds were landed, worth $4.9 million (MA DMF, 2019). Catch per unit effort (CPUE; lbs per trap haul) has steadily decreased, indicating the resource is being overexploited (MA DMF, 2019).
+
+The channeled whelk (Busycotypus canaliculatus) is a large, predatory marine gastropod that is an important commercial fishery in the United States (Edwards and Harasewych, 1988). The channeled whelk is an attractive fishery species, compared to other marine gastropods, due to its high market price and demand. They are worth around \$4 a pound live with the shell on, making them one of the higher valued gastropods (C. McKinney, pers. comm., Ocean C Star, New Bedford). The demand for whelk meat primarily comes from Taiwan, Hong Kong, Singapore, and Japan however, there is also a demand from domestic specialty markets (Kaplan & Boyer, 1992). The whelk fishery has grown significantly since its beginnings in the 1970s when whelks were primarily caught as bycatch from the lobster fishery. With the decline in southern New England lobster catches and the increase in the overseas market demand for whelk, many Cape Cod, Martha’s Vineyard, and Nantucket fishermen now primarily target whelk. Increase in market demand coupled with rising prices have placed more fishing pressure on all whelk populations. In Massachusetts, channeled whelk landings peaked in 2012 at 3.6 million lbs., valued at \$6.2 million (Nelson et al., 2018). Since 2012, landings have decreased, and in 2018,1.5 million pounds were landed, worth $4.9 million (MA DMF, 2019). Catch per unit effort (CPUE; lbs per trap haul) has steadily decreased, indicating the resource is being overexploited (MA DMF, 2019).
 
 Channeled whelk fisheries are state regulated, with each state enforcing slightly different regulations. In Massachusetts, the fishery is regulated by the Massachusetts’s Division of Marine Fisheries (MA DMF) and operates seasonally from April 14 to December 15. For 2021, Massachusetts will be enforcing a size limit requiring that channeled whelk be measured with a chute and have an internal width of 3 1/8”, length of at least 6”, and wall height of at least 1 ½” (Polito et al., 2021).
-The fishery of channeled whelks makes use of baited traps. Similar to lobsters, channeled whelks are caught with baited traps, fished either as singles or in trawls. The traps are made of wood, vinyl-coated wire mesh, or a combination of the two. There is no standard whelk trap so trap shape, weight, and openings vary among fishermen and locations. However, all trap tops are completely open, with the exception of a small edge of wire (approximately 13 cm wide) to prevent whelks from escaping. Whelks crawl up the trap sides on rubber strips and fall into the trap opening. Trap soak times change depending on the season; during cooler months, traps are hauled every 2 to 4 days (weather permitting), while in warmer months traps are generally hauled every day. Fishermen use their own unique blend of ingredients in these traps- including green crab, blue mussels, heron, and surf clam (Fisher, 1970). Ingredients are packed into mesh bait bags to decrease bait consumption by scavengers and increase bait longevity (Fisher, 1970). The majority of baits use the American horseshoe crab (*Limulus polyphemus*) as the primary attractant in their bait (Wakefield, n.d.). This heavily exploited, valuable species is not a natural forage species for whelk, but it does have some unknown attractant that is very effective for capturing whelks(Wakefield, n.d.).
+The fishery of channeled whelks makes use of baited traps. Similar to lobsters, channeled whelks are caught with baited traps, fished either as singles or in trawls. The traps are made of wood, vinyl-coated wire mesh, or a combination of the two. There is no standard whelk trap so trap shape, weight, and openings vary among fishermen and locations. However, all trap tops are completely open, with the exception of a small edge of wire (approximately 13 cm wide) to prevent whelks from escaping. Whelks crawl up the trap sides on rubber strips and fall into the trap opening. Trap soak times change depending on the season; during cooler months, traps are hauled every 2 to 4 days (weather permitting), while in warmer months traps are generally hauled every day. Fishermen use their own unique blend of ingredients in these traps- including green crab, blue mussels, heron, and surf clam (Fisher, 1970). Ingredients are packed into mesh bait bags to decrease bait consumption by scavengers and increase bait longevity (Fisher, 1970). The majority of baits use the American horseshoe crab (*Limulus polyphemus*) as the primary attractant in their bait (Wakefield, n.d.). This heavily exploited, valuable species is not a natural forage species for whelk, but it does have some unknown attractant that is very effective for capturing whelks (Wakefield, n.d.).
 
-The utilization of the American horseshoe crab as a bait poses a problem for numerous reasons. The first problem with using the American horseshoe crab as bait is that their eggs are an important food source for threatened birds migrating through the region (Botton et al., 2010). Due to this, conservations have been pushing to limit the use of horseshoe crabs in bait in recent years. Furthermore, the American horseshoe crab already has a very important use in the biomedical industry. The blood of the horseshoe crab is used in biomedical research to help develop vaccines, among other purposes (Novitsky, 1991). Finally, the population of American horseshoe crabs has been declining in recent years (David Smith (IUCN SSC Horseshoe Crab Specialist Group / U. S. Geological Survey et al., 2016). All of these factors cause the American horseshoe crab to be an increasingly expensive and unsustainable ingredient in the channeled whelk fishery. 
-	
-There has been preliminary research into alternative baits that can be used instead of the American horseshoe crab. Some preliminary tests have reported the channeled whelks being attracted to cheaper ingredients including green crabs, surf clams, and shellfish processing wastes. There is also some preliminary data showing channeled whelks may even prefer surf clams over *Limulus*. However, the behavior of the channeled whelks to these baits has been highly variable and further study is needed to determine an ideal bait that is as effective as current *Limulus* baits.
+The utilization of the American horseshoe crab as a bait poses a problem for numerous reasons. The first problem with using the American horseshoe crab as bait is that their eggs are an important food source for threatened birds migrating through the region (Botton et al., 2010). Due to this, conservations have been pushing to limit the use of horseshoe crabs in bait in recent years. Furthermore, the American horseshoe crab already has a very important use in the biomedical industry. The blood of the horseshoe crab is used in biomedical research to help develop vaccines, among other purposes (Novitsky, 1991). Finally, the population of American horseshoe crabs has been declining in recent years (David Smith (IUCN SSC Horseshoe Crab Specialist Group / U. S. Geological Survey et al., 2016). A recent analysis (ASMFC, 2013) shows that in New England, Limulus biomass is substantially lower than what it was during prior stock assessments. In addition, in the northeast, Atlantic horseshoe crab populations are predicted to diminish by at least 30% within the next 40 years (Smith et al., 2016). All of these factors cause the American horseshoe crab to be an increasingly expensive and unsustainable ingredient in the channeled whelk fishery. 
+
+Previous attempts have been made to develop alternative baits to reduce the use of horseshoe crab as bait, including evaluating which proteins in horseshoe crab eggs are attractive to whelk (Ferrari and Targett, 2003; Targett et al., 2005). The search for alternative and more sustainable baits goes beyond the Channeled Whelk Fishery. The lobster fishery in the Gulf of  Maine has had to adapt to a decline in the availability of Atlantic Herring (Stoll et al., 2021), in Prince Edward Island the lobster fishery found that alternative baits for lobsters had similar catches to traditional baits (Patanasatienkul et al., 2020). Some preliminary tests have reported the channeled whelks being attracted to cheaper ingredients including green crabs, surf clams, and shellfish processing wastes. There is also some preliminary data showing channeled whelks may even prefer surf clams over *Limulus*. However, the behavior of the channeled whelks to these baits has been highly variable and further study is needed to determine an ideal bait that is as effective as current *Limulus* baits.
+
 
 # **Objectives**
 
@@ -60,12 +62,67 @@ Brinno camera video footage will be downloaded slowed to 0.25X speed. Footage wa
 
 Data collection is ongoing and the methods of statistical analysis are to be determined. Current data was graphed utilizing R Version 4.0.2. Packages utilized include: ggplot2, gridextra, dplyr, tidyr, and knitr. Data was grouped according to bait type.
 
+
+
+
+\pagebreak
+
+# **References**
+
+ASMFC, 2013. Horseshoe crab stock assessment update. Available at:
+http://www.asmfc.org/uploads/file/52a88db82013HSC_StockAssessmentUpdate.pdf
+
+Botton, M.L., C.N. Jr. Shuster, and J.A. Keinath. 2003. Horseshoe crabs in a food web: who eats whom?
+In: Shuster, C.N. Jr., R.B. Barlow, and H.J. Brockmann, editors. The American horseshoe crab.
+Cambridge (MA): Harvard University Press. p. 133-150.
+
+David Smith (IUCN SSC Horseshoe Crab Specialist Group / U. S. Geological Survey, W. V., Mark Beekey (IUCN SSC Horseshoe Crab Specialist Group / Department of Biological Sciences, S. H. U., Group), J. B. (IUCN S. H. C. S., Timothy King (IUCN SSC Horseshoe Crab Specialist Group / U. S. Geological Survey, W. V., Michael Millard (IUCN SSC Horseshoe Crab Specialist Group / U. S. Fish and Wildlife Service, P., & Jaime Zaldívar-Rae (IUCN SSC Horseshoe Crab Specialist Group / Anáhuac Mayab University, Y. (2016). IUCN Red List of Threatened Species: Limulus polyphemus. IUCN Red List of Threatened Species. https://www.iucnredlist.org/en
+
+Ferrari, K.M and N.M. Targett. 2003. Chemical attractants in Horsehoe crab, Limulus polyphemus, eggs:
+the potential for an artificial bait. J. Chem. Ecol. 29(2):477-496.
+
+Fisher, R. (1970). The Use Of Bait Bags To Reduce The Need For Horseshoe Crab As Bait In The Virginia Whelk Fishery. https://doi.org/10.21220/M2-FJSZ-JJ36
+
+Gall L. 2019. Invertebrate Zoology Division, Yale Peabody Museum. Yale University Peabody Museum.
+Occurrence dataset https://doi.org/10.15468/0lkr3w
+
+Massachusetts Division of Marine Fisheries (MA DMF). 2019.Data provided by Erich Druskat.
+
+Kaplan, I. M., & Boyer, B. C. (1992). Monitoring Marine Resources: Ecological and Policy Implications Affecting the Scientific Collecting and Commercial Value of New England Conch (Busycon). The Biological Bulletin, 183(2), 379–380. https://doi.org/10.1086/BBLv183n2p379
+
+Nelson, G., Wilcox, S. H., Glenn, R., & Pugh, T. L. (2018, April). A Stock Assessment of Channeled Whelk (Busycotypus canaliculatus) in Nantucket Sound, Massachusetts. Massachusetts Division of Marine Fisheries. https://www.mass.gov/doc/marine-fisheries-technical-report-66/download
+
+Novitsky, T.J. 1991. Discovery to commercialization: the blood of the horseshoe crab. Oceanus27(1): 13
+18.
+
+Ocean C Star, New Bedford, MA, 2015.
+
+Patanasatienkul, T., Delphino, M. K. V. C., & Thakur, K. K. (2020). Comparing the Effectiveness of Traditional and Alternative Baits in Prince Edward Island, Canada Lobster Fishery. Frontiers in Marine Science, 7, 902. https://doi.org/10.3389/fmars.2020.589549
+
+Polito, K. E., Theoharides, K. A., Amidon, R. S., & Mckiernan, D. J. (2021). CHARLES D. BAKER Governor. 1.
+
+Smith, D.R., M.A. Beekey, H.J. Brockmann, T.L. King, M.J. Millard, and J.A. Zaldívar-Rae. 2016. Limulus
+polyphemus. The IUCN Red List of Threatened Species2016: e.T11987A80159830.
+http://dx.doi.org/10.2305/IUCN.UK.2016-1.RLTS.T11987A80159830.en.
+
+Stoll, J. S., Oldach, E. J., Witkin, T., Reardon, K., Love, D. C., & Pinto da Silva, P. (2021). Rapid adaptation to crisis events: Insights from the bait crisis in the Maine lobster fishery. Ambio. https://doi.org/10.1007/s13280-021-01617-8
+
+Targett, N., K. Wakefield, P. Green, Y. Wu, and J. Costanza. 2005. Artificial bait based on a peptide
+attractant found in horseshoe crab eggs. US Patent Application. US2005/0220892.
+
+Wakefield, K. (n.d.). Saving the Horseshoe Crab: Designing a More Sustainable Bait for Regional Eel and Conch Fisheries. 8.
+
+\pagebreak
+
 ![Figure 1: The dimensions for measuring the carapace length, width, and height of the channeled whelk (Gall, 2019). ](Figure_1_Whelk_Measure.png)
 
 ![Figure 2: Setup of the harnesses used for the HOBO Pendant G Data Logger accelerometer that was secured onto the channeled whelk. Harnesses were secured on roughly the same place on the back of each legal-sized whelk and accelerometers were secured at the same orientation (facing towards the pointed end of the channeled whelk’s shell).](Figure_2_Whelk_backpack.jpg)
 
+\pagebreak
 
-```{r, echo=FALSE, fig.cap='Total Minutes of Channeled Whelk Interaction with Control Bags, Bait ingredients, and  Alternative Baits During a 24 hour time period'}
+
+
+```{r, echo=FALSE, fig.cap='Total minutes of channeled whelk interaction with control bags, bait ingredients, and  alternative baits during a 24 hour time period with standard error.'}
 
 library(ggplot2)
 library(gridExtra)
@@ -108,7 +165,7 @@ ggplot(data=SE, aes(x=Bait, y=Total)) +
 
 ```
 
-```{r, echo=FALSE, fig.cap='Total Minutes of Interaction for Channeled Whelk bait preference Including Bait Ingredients and Alternative Bait Mixes during a 24 hour period'}
+```{r, echo=FALSE, fig.cap='Total minutes of interaction for channeled whelk bait preference including bait ingredients and alternative bait mixes during a 24 hour period with standard error.'}
 
 library(ggplot2)
 library(gridExtra)
@@ -154,13 +211,13 @@ library(ggplot2)
   #              position=position_dodge(.9))
 
 ggplot(data=Baits, aes(x=Bait, y=Total)) + 
-  geom_bar(stat = "identity", width=0.5)+ theme(axis.text.x = element_text(angle = 90))+theme(axis.text = element_text(size = 6))+ggtitle("Channeled Whelk Alternative Bait Total Interaction Time")+ xlab("Bait") + ylab("Total Minutes of Interaction")+ geom_errorbar(aes(ymin=Total-se, ymax=Total+se), width=.2,position=position_dodge(.9)) +
+  geom_bar(stat = "identity", width=0.5)+ theme_bw()+theme(axis.text.x = element_text(angle = 90))+theme(axis.text = element_text(size = 6))+ggtitle("Channeled Whelk Alternative Bait Total Interaction Time")+ xlab("Bait") + ylab("Total Minutes of Interaction")+ geom_errorbar(aes(ymin=Total-se, ymax=Total+se), width=.2,position=position_dodge(.9)) +
 scale_x_discrete(labels=c( "Clam/Binder Mix","Clam Byproduct",
                            "Female Horseshoe Crab","Frozen Green Crab/Clam Mix","Green Crab/Binder Mix","Ground Green Crab","Hemolymph Mix", "Male Horseshoe Crab","Poultry Byproduct","Refrigerated Green Crab/Clam Mix",
                            "Surfclam","Whole Green Crab"))
 ```
 
-```{r, echo=FALSE, fig.cap='Total Minutes of Interaction for Channeled Whelk bait preference Including Bait Ingredients and Alternative Bait Mixes during a 24 hour period'}
+```{r, echo=FALSE, fig.cap='Box plot of total minutes of interaction for channeled whelk bait preference including Bait ingredients and alternative bait mixes during a 24 hour period.'}
 Boxplot<- Whelkgroup%>%
   filter(Bait %in% c("Clam_Binder_Mix", "Clam_Byproduct","Female_HSC","FGC_Clam_Mix","GC_Binder_Mix","Ground_GC","Hemolymph_mix","Male_HSC","Poultry_byproduct","RGC_Clam_Mix","Surfclam","Whole_GC"))
 
@@ -180,7 +237,7 @@ ggplot(data=Boxplot, mapping=aes(x=Bait,y=Sum_Whelk))+
 ```
 
 
-```{r, echo=FALSE, fig.cap='Total Minutes of Interaction by Bait Ingredients During 24 hour Time Period'}
+```{r, echo=FALSE, fig.cap='Total Minutes of Interaction by Bait Ingredients During 24 hour Time Period with standard error.'}
 HSC_Baits<- SE%>%
   filter(Bait %in% c("Control_Female_HSC","Female_HSC","Control_Male_HSC","Male_HSC", "Hemolymph_mix","Control_Hemolymph_mix"))
 
@@ -246,6 +303,8 @@ grid.arrange(p1, p2,p3,p4, nrow = 2, top = "Bait Ingredients")
 
 ```
 
+
+
 ```{r, echo=FALSE, fig.cap='Coastal Marine Laboratory Water Quality on Start Date of Bait Trials'}
 Temp<-Whelkhourly %>%
  select(Trial_start_date,Salinity,Temp)%>%
@@ -282,25 +341,9 @@ Sal<-Sal%>%
  grid.arrange(p5, p6, nrow = 1, top = "Water Quality") 
  
 ```
-\pagebreak
 
-# **References**
 
-Botton, M.L., C.N. Jr. Shuster, and J.A. Keinath. 2003. Horseshoe crabs in a food web: who eats whom?
-In: Shuster, C.N. Jr., R.B. Barlow, and H.J. Brockmann, editors. The American horseshoe crab.
-Cambridge (MA): Harvard University Press. p. 133-150.
 
-David Smith (IUCN SSC Horseshoe Crab Specialist Group / U. S. Geological Survey, W. V., Mark Beekey (IUCN SSC Horseshoe Crab Specialist Group / Department of Biological Sciences, S. H. U., Group), J. B. (IUCN S. H. C. S., Timothy King (IUCN SSC Horseshoe Crab Specialist Group / U. S. Geological Survey, W. V., Michael Millard (IUCN SSC Horseshoe Crab Specialist Group / U. S. Fish and Wildlife Service, P., & Jaime Zaldívar-Rae (IUCN SSC Horseshoe Crab Specialist Group / Anáhuac Mayab University, Y. (2016). IUCN Red List of Threatened Species: Limulus polyphemus. IUCN Red List of Threatened Species. https://www.iucnredlist.org/en
 
-Fisher, R. (1970). The Use Of Bait Bags To Reduce The Need For Horseshoe Crab As Bait In The Virginia Whelk Fishery. https://doi.org/10.21220/M2-FJSZ-JJ36
 
-Kaplan, I. M., & Boyer, B. C. (1992). Monitoring Marine Resources: Ecological and Policy Implications Affecting the Scientific Collecting and Commercial Value of New England Conch (Busycon). The Biological Bulletin, 183(2), 379–380. https://doi.org/10.1086/BBLv183n2p379
-
-Massachusetts Division of Marine Fisheries (MA DMF). 2019.Data provided by Erich Druskat.
-
-Nelson, G., Wilcox, S. H., Glenn, R., & Pugh, T. L. (2018, April). A Stock Assessment of Channeled Whelk (Busycotypus canaliculatus) in Nantucket Sound, Massachusetts. Massachusetts Division of Marine Fisheries. https://www.mass.gov/doc/marine-fisheries-technical-report-66/download
-
-Polito, K. E., Theoharides, K. A., Amidon, R. S., & Mckiernan, D. J. (2021). CHARLES D. BAKER Governor. 1.
-
-Wakefield, K. (n.d.). Saving the Horseshoe Crab: Designing a More Sustainable Bait for Regional Eel and Conch Fisheries. 8.
 
