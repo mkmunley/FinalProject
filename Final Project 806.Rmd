@@ -1,0 +1,306 @@
+---
+title: "Final Project"
+author: "Mary Kate Munley"
+date: "12/2/2021"
+output: pdf_document
+header-includes: 
+- \usepackage{placeins}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE)
+```
+
+# **Background**
+
+The channeled whelk (*Busycotypus canaliculatus*) is a large, predatory marine gastropod that is an important commercial fishery in the United States (Edwards and Harasewych, 1988). The channeled whelk is an attractive fishery species, compared to other marine gastropods, due to its high market price and demand. They are worth around \$4 a pound live with the shell on, making them one of the higher valued gastropods (C. McKinney, pers. comm., Ocean C Star, New Bedford). The demand for whelk meat primarily comes from Taiwan, Hong Kong, Singapore, and Japan however, there is also a demand from domestic specialty markets (Kaplan & Boyer, 1992). The whelk fishery has grown significantly since its beginnings in the 1970s when whelks were primarily caught as bycatch from the lobster fishery. With the decline in southern New England lobster catches and the increase in the overseas market demand for whelk, many Cape Cod, Martha’s Vineyard, and Nantucket fishermen now primarily target whelk. Increase in market demand coupled with rising prices have placed more fishing pressure on all whelk populations. In Massachusetts, channeled whelk landings peaked in 2012 at 3.6 million lbs., valued at \$6.2 million (Nelson et al., 2018). Since 2012, landings have decreased, and in 2018,1.5 million pounds were landed, worth $4.9 million (MA DMF, 2019). Catch per unit effort (CPUE; lbs per trap haul) has steadily decreased, indicating the resource is being overexploited (MA DMF, 2019).
+
+Channeled whelk fisheries are state regulated, with each state enforcing slightly different regulations. In Massachusetts, the fishery is regulated by the Massachusetts’s Division of Marine Fisheries (MA DMF) and operates seasonally from April 14 to December 15. For 2021, Massachusetts will be enforcing a size limit requiring that channeled whelk be measured with a chute and have an internal width of 3 1/8”, length of at least 6”, and wall height of at least 1 ½” (Polito et al., 2021).
+The fishery of channeled whelks makes use of baited traps. Similar to lobsters, channeled whelks are caught with baited traps, fished either as singles or in trawls. The traps are made of wood, vinyl-coated wire mesh, or a combination of the two. There is no standard whelk trap so trap shape, weight, and openings vary among fishermen and locations. However, all trap tops are completely open, with the exception of a small edge of wire (approximately 13 cm wide) to prevent whelks from escaping. Whelks crawl up the trap sides on rubber strips and fall into the trap opening. Trap soak times change depending on the season; during cooler months, traps are hauled every 2 to 4 days (weather permitting), while in warmer months traps are generally hauled every day. Fishermen use their own unique blend of ingredients in these traps- including green crab, blue mussels, heron, and surf clam (Fisher, 1970). Ingredients are packed into mesh bait bags to decrease bait consumption by scavengers and increase bait longevity (Fisher, 1970). The majority of baits use the American horseshoe crab (*Limulus polyphemus*) as the primary attractant in their bait (Wakefield, n.d.). This heavily exploited, valuable species is not a natural forage species for whelk, but it does have some unknown attractant that is very effective for capturing whelks(Wakefield, n.d.).
+
+The utilization of the American horseshoe crab as a bait poses a problem for numerous reasons. The first problem with using the American horseshoe crab as bait is that their eggs are an important food source for threatened birds migrating through the region (Botton et al., 2010). Due to this, conservations have been pushing to limit the use of horseshoe crabs in bait in recent years. Furthermore, the American horseshoe crab already has a very important use in the biomedical industry. The blood of the horseshoe crab is used in biomedical research to help develop vaccines, among other purposes (Novitsky, 1991). Finally, the population of American horseshoe crabs has been declining in recent years (David Smith (IUCN SSC Horseshoe Crab Specialist Group / U. S. Geological Survey et al., 2016). All of these factors cause the American horseshoe crab to be an increasingly expensive and unsustainable ingredient in the channeled whelk fishery. 
+	
+There has been preliminary research into alternative baits that can be used instead of the American horseshoe crab. Some preliminary tests have reported the channeled whelks being attracted to cheaper ingredients including green crabs, surf clams, and shellfish processing wastes. There is also some preliminary data showing channeled whelks may even prefer surf clams over *Limulus*. However, the behavior of the channeled whelks to these baits has been highly variable and further study is needed to determine an ideal bait that is as effective as current *Limulus* baits.
+
+# **Objectives**
+
+The objective of this study is to evaluate alternative baits for the Channeled Whelk Fishery that are more sustainable, equally attractive to whelk, and cheaper than the current baits utilized by the fishery. Additional objectives include:
+
+1. Determining what sustainable bait ingredients are attractive to channeled whelk
+2. Compare the attractiveness of male and female horseshoe crabs
+3. Analyze Channeled Whelk circadian rhythm to establish which times whelk are the most active and feed
+4. Develop bait mixes from a refined list of top performing baits
+5. Compare bait attractiveness over longer soak times
+
+# **Research Methods**
+*Whelk Collection*
+
+Seventy-five channeled whelks will be shipped from Marine Biological Laboratory in Woods Hole, MA and twenty more were provided from commercial whelk fishermen in Martha’s Vineyard, MA. Whelks will be allowed to acclimate to laboratory conditions for a minimum of one week prior to experimentation. The whelks will be labeled from 1-75 in a large number visible from out of the camera and with a small shellfish tag. Whelk shell length, width, and height will be measured to the nearest hundredth of a centimeter according to the dimensions shown in Figure 1 and identified as being legal sized in accordance with Massachusetts state regulations (“Whelks and Whelk Management.”, 2021). Legal and sublegal whelks will then be separated, and legal sized whelks will have harnesses for HOBO Pendant G Data Logger (UA-004-64) attached to the back of their carapaces as shown in Figure 2.
+
+
+
+
+
+*Experimental Setup*
+
+Bait trials are to be conducted at University of New Hampshire’s Coastal Marine Lab (CML) in New Castle, NH. Four circular tanks (labeled Tank 3- Tank 6) with a diameter of 0.91 meters will receive constant flow-through raw saltwater. The seawater is from the mouth of the adjacent Piscataqua River, NH. Experiments will be conducted from June 21 to December, 2021. Water temperature and salinity will be monitored daily during this time period. CML lights are programmed on a diurnal cycle with the lights on from dawn to dusk in accordance with the season. 
+Tanks will be set up with PVC pipes secured to the top, across the diameter, to allow for the suspension of one mesh bait bag and one control bag (Figure 3). The bait bags will be hung at around half the radius in each tank with a control bag on the opposite side. The location of the bait bag and control bag in the tank will switch every other trial. The water flow was kept on for the duration of the trial to ensure proper oxygenation of the water. Four Brinno time lapse cameras will be attached to each tank and set up to take a picture every four seconds for the duration of the trials. Clip-on lights with red, 60 W bulbs will be attached to each tank to enhance visibility during nighttime recordings. Red lights will be programmed to turn on 18:00-7:00 while laboratory lights are off. 
+
+*24 Hour bait Trials*
+
+Each trials will run for 24 hours will begin at noon. Whelks will be randomly assigned to bait trials, while ensuring that each whelk is not used in consecutive trials. The following eight baits were tested: 1)  1/3rd of a Limulus polyphemus (Horseshoe Crab), 2) ground whole green crab (Carcinus maenas), 3) whole crushed green crab (Carcinus maenas), 4) clam processing waste, 5) refrigerated ground whole green crab with alginate binder, 6) refrigerated clam processing waste with alginate binder, 7) refrigerated Limulus hemolymph with alginate binder, 8) whole surf clam, 9) refrigerated ground green crab (Carcinus maenas) and clam processing waste mix with an alginate binder, and 10) frozen ground green crab (Carcinus maenas) and clam processing waste mix with an alginate binder. The ground green crab (Carcinus maenas) and clam processing waste mix with an alginate binder will be tested after being stored in a refrigerator and a freezer to determine if freezing will negatively impact the consistency of the bait mix. 
+
+All frozen baits will be thawed for 3 hours prior to experimentation. Whole frozen horseshoe crabs, Limulus polyphemus, will be crushed and broken into quarters if it was a female and halves if it was a male following common practices utilized by whelk fishermen in Martha’s Vineyard. The quarter or half of the Limulus polyphemus was weighed and was placed in a bait bag with a HOBO data logger anchored to the bottom of the bag and a 25g weight to keep the bag on the bottom. The part of the horseshoe crab utilized was recorded to determine if one part of the horseshoe crab is more attractive to whelk. The bait mixes containing alginate binders will be shaped and stored as 100g pucks. One bait mix puck was placed in a bait bag with the HOBO data logger and the weight. Raw baits will be measured to 100g and placed in the bait bag with the HOBO data logger and weights. Control bags will contain a HOBO datalogger secured to the bottom and 125g of weight. Bait bags will be labelled with the specific bait type or as a control to avoid cross contamination of baits. The HOBO data logger will be secured to the bottom corner of the bag with zip ties to ensure consistent orientation of the logger and minimize the amount of motion caused by water flow in the tanks. Whelks will be acclimated to experimental tanks for 2 hours prior to the start of the trial and addition of the bait bags at 12:00 pm.
+
+The HOBO data loggers in both the bait bags and on the channeled whelk will be set up to measure acceleration in the x, y, and z direction every 4 seconds for 24 hours starting at noon. The BRINNO time lapse cameras will be programmed to take an image every 4 seconds for the same duration. Following the completion of each trial, each tank will be drained and rinsed with freshwater thoroughly before being refilled. The bait bags will be emptied and rinsed will freshwater.
+
+Brinno camera video footage will be downloaded slowed to 0.25X speed. Footage was analyzed and all whelk interactions with the bait bag or control bag will be recorded. Interaction time will be determined by watching slowed down time-lapse footage and recording time periods in which the whelk was in contact with the bait bag. Accidental bumping of the bait bag as the whelk moved in circles around the tank will be excluded. Investigatory/feeding behaviors will be considered to be when the whelk 1) touched the bags with siphon 2) touched bags with foot 3) moved bag with body/foot 4) latched onto bag 5) pushed bag around with body after touching with siphon. The duration of these activities will be recorded.
+
+*Statistical Analysis*
+
+Data collection is ongoing and the methods of statistical analysis are to be determined. Current data was graphed utilizing R Version 4.0.2. Packages utilized include: ggplot2, gridextra, dplyr, tidyr, and knitr. Data was grouped according to bait type.
+
+![Figure 1: The dimensions for measuring the carapace length, width, and height of the channeled whelk (Gall, 2019). ](Figure_1_Whelk_Measure.png)
+
+![Figure 2: Setup of the harnesses used for the HOBO Pendant G Data Logger accelerometer that was secured onto the channeled whelk. Harnesses were secured on roughly the same place on the back of each legal-sized whelk and accelerometers were secured at the same orientation (facing towards the pointed end of the channeled whelk’s shell).](Figure_2_Whelk_backpack.jpg)
+
+
+```{r, echo=FALSE, fig.cap='Total Minutes of Channeled Whelk Interaction with Control Bags, Bait ingredients, and  Alternative Baits During a 24 hour time period'}
+
+library(ggplot2)
+library(gridExtra)
+library(dplyr)
+library(tidyr)
+
+require(dplyr)
+library(knitr)
+
+Whelk <- read.csv("Whelk_Hourly.csv", stringsAsFactors = TRUE)
+Whelkhourly <- read.csv("Whelk_Hourly_clean.csv", stringsAsFactors = FALSE)
+
+A <-strptime(Whelkhourly$interaction_start_time, format = "%m/%d/%Y %H:%M", tz = "EST")
+B <-strptime(Whelkhourly$interaction_end_time, format = "%m/%d/%Y %H:%M", tz = "EST")
+
+Whelkhourly$Interaction_Time <- as.numeric (B-A)/60
+
+Whelkgroup<- Whelkhourly %>%
+  select(Whelk,Tank,Bait, Interaction_Time) %>%
+  group_by(Whelk,Bait) %>%
+  mutate("Sum_Whelk" = sum(Interaction_Time))
+
+SE <-Whelkgroup %>%
+  select(Bait,Sum_Whelk,Whelk)%>%
+  group_by(Bait)%>%
+  summarise(
+    Total = mean(Sum_Whelk),
+    sd = sd(Sum_Whelk),
+    n = n(),
+    se = sd / sqrt(n))
+
+
+ggplot(data=SE, aes(x=Bait, y=Total)) + 
+  geom_bar(stat = "identity", width=0.5) + theme_bw()+ theme(axis.text.x = element_text(angle = 90))+theme(axis.text = element_text(size = 6))+ggtitle("Channeled Whelk Alternative Bait Total Interaction Time")+
+  xlab("Bait") + ylab("Total Minutes of Interaction")+
+  geom_errorbar(aes(ymin=Total-se, ymax=Total+se), width=.2, position=position_dodge(.9))+
+  scale_x_discrete(labels=c("Control Female Horseshoe Crab", "Female Horseshoe Crab","Control Male Horseshoe Crab","Male Horseshoe Crab", "Control Hemolymph Mix","Hemolymph Mix","Control Poultry Byproduct","Poultry Byproduct","Control Ground Green Crab","Ground Green Crab","Control Whole Green Crab", "Whole Green Crab", "Control Green Crab/Binder Mix", "Green Crab/Binder Mix","Control Clam Byproduct",
+"Clam Byproduct","Control Clam/Binder Mix","Clam/Binder Mix",
+"Control Refrigerated Green Crab/Clam Mix","Refrigerated Green Crab/Clam Mix","Control Frozen Green Crab/Clam Mix","Frozen Green Crab/Clam Mix","Control Surfclam","Surfclam"))
+
+```
+
+```{r, echo=FALSE, fig.cap='Total Minutes of Interaction for Channeled Whelk bait preference Including Bait Ingredients and Alternative Bait Mixes during a 24 hour period'}
+
+library(ggplot2)
+library(gridExtra)
+library(dplyr)
+library(tidyr)
+
+require(dplyr)
+library(knitr)
+
+Whelk <- read.csv("Whelk_Hourly.csv", stringsAsFactors = TRUE)
+Whelkhourly <- read.csv("Whelk_Hourly_clean.csv", stringsAsFactors = FALSE)
+
+A <-strptime(Whelkhourly$interaction_start_time, format = "%m/%d/%Y %H:%M", tz = "EST")
+B <-strptime(Whelkhourly$interaction_end_time, format = "%m/%d/%Y %H:%M", tz = "EST")
+
+Whelkhourly$Interaction_Time <- as.numeric (B-A)/60
+
+Whelkgroup<- Whelkhourly %>%
+  select(Whelk,Tank,Bait, Interaction_Time) %>%
+  group_by(Whelk,Bait) %>%
+  mutate("Sum_Whelk" = sum(Interaction_Time))
+
+SE <-Whelkgroup %>%
+  select(Bait,Sum_Whelk)%>%
+  group_by(Bait)%>%
+  summarise(
+    Total = mean(Sum_Whelk),
+    sd = sd(Sum_Whelk),
+    n = n(),
+    se = sd / sqrt(n)
+  )
+Baits<-SE %>%
+  filter(Bait %in% c("Clam_Binder_Mix", "Clam_Byproduct","Female_HSC","FGC_Clam_Mix","GC_Binder_Mix","Ground_GC","Hemolymph_mix","Male_HSC","Poultry_byproduct","RGC_Clam_Mix","Surfclam","Whole_GC"))
+
+
+library(ggplot2)
+
+#ggplot(data=Baits, aes(x=Bait, y=Total)) + 
+ # geom_bar(stat = "identity", width=0.5) + theme_bw()+
+#theme(axis.text.x = element_text(angle = 90))+theme(axis.text = element_text(size = 6))+ggtitle("Channeled Whelk Alternative Bait Total Interaction Time")+
+ # xlab("Bait") + ylab("Total Minutes of Interaction")+
+ # geom_errorbar(aes(ymin=Total-se, ymax=Total+se), width=.2,
+  #              position=position_dodge(.9))
+
+ggplot(data=Baits, aes(x=Bait, y=Total)) + 
+  geom_bar(stat = "identity", width=0.5)+ theme(axis.text.x = element_text(angle = 90))+theme(axis.text = element_text(size = 6))+ggtitle("Channeled Whelk Alternative Bait Total Interaction Time")+ xlab("Bait") + ylab("Total Minutes of Interaction")+ geom_errorbar(aes(ymin=Total-se, ymax=Total+se), width=.2,position=position_dodge(.9)) +
+scale_x_discrete(labels=c( "Clam/Binder Mix","Clam Byproduct",
+                           "Female Horseshoe Crab","Frozen Green Crab/Clam Mix","Green Crab/Binder Mix","Ground Green Crab","Hemolymph Mix", "Male Horseshoe Crab","Poultry Byproduct","Refrigerated Green Crab/Clam Mix",
+                           "Surfclam","Whole Green Crab"))
+```
+
+```{r, echo=FALSE, fig.cap='Total Minutes of Interaction for Channeled Whelk bait preference Including Bait Ingredients and Alternative Bait Mixes during a 24 hour period'}
+Boxplot<- Whelkgroup%>%
+  filter(Bait %in% c("Clam_Binder_Mix", "Clam_Byproduct","Female_HSC","FGC_Clam_Mix","GC_Binder_Mix","Ground_GC","Hemolymph_mix","Male_HSC","Poultry_byproduct","RGC_Clam_Mix","Surfclam","Whole_GC"))
+
+
+ggplot(data=Boxplot, mapping=aes(x=Bait,y=Sum_Whelk))+
+  geom_boxplot(size=0.1)+
+  theme(axis.text.x = element_text(angle = 90))+ 
+  theme(text = element_text(size = 7))+
+  ggtitle("Channeled Whelk Alternative Bait Total Interaction Time") +
+  xlab("Bait") + ylab("Total Minutes of Interaction")+
+  scale_x_discrete(labels=c( "Clam/Binder Mix","Clam Byproduct","Female Horseshoe Crab",
+                             "Frozen Green Crab/Clam Mix", "Green Crab/Binder Mix",
+                             "Ground Green Crab","Hemolymph Mix", "Male Horseshoe Crab",
+                             "Poultry Byproduct","Refrigerated Green Crab/Clam Mix",
+                             "Surfclam","Whole Green Crab"))
+
+```
+
+
+```{r, echo=FALSE, fig.cap='Total Minutes of Interaction by Bait Ingredients During 24 hour Time Period'}
+HSC_Baits<- SE%>%
+  filter(Bait %in% c("Control_Female_HSC","Female_HSC","Control_Male_HSC","Male_HSC", "Hemolymph_mix","Control_Hemolymph_mix"))
+
+GC_Baits<- SE%>%
+  filter(Bait %in% c("Control_Ground_GC","Ground_GC","Control_Whole_GC","Whole_GC","Control_GC_Binder_Mix", "GC_Binder_Mix"))
+
+Clam_Baits<- SE%>%
+  filter(Bait %in% c("Control_Clam_Byproduct","Clam_Byproduct","Control_Clam_Binder_Mix","Clam_Binder_Mix","Control_Surfclam","Surfclam"))
+
+Mix_Baits<-SE%>%
+  filter(Bait %in% c("Control_RGC_Mix","RGC_Mix","Control_FGC_Mix","FGC_Mix"))
+
+p1<-ggplot(data=HSC_Baits, aes(x=Bait, y=Total)) + 
+  geom_bar(stat = "identity", width=0.5) + theme_bw()+
+  theme(axis.text.x = element_text(angle = 90))+
+  theme(axis.text = element_text(size = 6))+
+  ggtitle("Horseshoe Crab Baits Total Interaction Time")+
+  xlab("Bait") + ylab("Minutes of Interaction")+
+  geom_errorbar(aes(ymin=Total-se, ymax=Total+se), width=.2,
+                position=position_dodge(.9))+
+  theme(plot.title = element_text(size = 6))+
+  theme(axis.text=element_text(size=6),
+  axis.title=element_text(size=6,face="bold"))
+
+p2<-ggplot(data=GC_Baits, aes(x=Bait, y=Total)) + 
+  geom_bar(stat = "identity", width=0.5) + theme_bw()+
+  theme(axis.text.x = element_text(angle = 90))+
+  theme(axis.text = element_text(size = 6))+
+  ggtitle("Green Crab Baits Total Interaction Time")+
+  xlab("Bait") + ylab("Minutes of Interaction")+
+  geom_errorbar(aes(ymin=Total-se, ymax=Total+se), width=.2,
+                position=position_dodge(.9))+
+  theme(plot.title = element_text(size = 6))+
+  theme(axis.text=element_text(size=6),
+  axis.title=element_text(size=6,face="bold"))
+
+p3<-ggplot(data=Clam_Baits, aes(x=Bait, y=Total)) + 
+  geom_bar(stat = "identity", width=0.5) + theme_bw()+
+  theme(axis.text.x = element_text(angle = 90))+
+  theme(axis.text = element_text(size = 6))+
+  ggtitle("Clam Baits Total Interaction Time")+
+  xlab("Bait") + ylab("Minutes of Interaction")+
+  geom_errorbar(aes(ymin=Total-se, ymax=Total+se), width=.2,
+                position=position_dodge(.9))+
+  theme(plot.title = element_text(size = 6))+
+  theme(axis.text=element_text(size=6),
+  axis.title=element_text(size=6,face="bold"))
+
+p4<-ggplot(data=Clam_Baits, aes(x=Bait, y=Total)) + 
+  geom_bar(stat = "identity", width=0.5) + theme_bw()+
+  theme(axis.text.x = element_text(angle = 90))+
+  theme(axis.text = element_text(size = 6))+
+  ggtitle("Alternative Bait Mixes Total Interaction Time")+
+  xlab("Bait") + ylab("Minutes of Interaction")+
+  geom_errorbar(aes(ymin=Total-se, ymax=Total+se), width=.2,
+                position=position_dodge(.9)) +
+  theme(plot.title = element_text(size = 6))+
+  theme(axis.text=element_text(size=6),
+  axis.title=element_text(size=6,face="bold"))
+
+grid.arrange(p1, p2,p3,p4, nrow = 2, top = "Bait Ingredients")
+
+
+```
+
+```{r, echo=FALSE, fig.cap='Coastal Marine Laboratory Water Quality on Start Date of Bait Trials'}
+Temp<-Whelkhourly %>%
+ select(Trial_start_date,Salinity,Temp)%>%
+  group_by(Trial_start_date)%>%
+  summarize("Average_Temp" = mean(Temp))
+
+Temp<-Temp%>% 
+  filter(is.na(Average_Temp) == FALSE)
+
+
+Sal<-Whelkhourly %>%
+  select(Trial_start_date,Salinity,Temp)%>%
+  group_by(Trial_start_date)%>%
+  summarize("Average_Salinity" = mean(Salinity))
+
+Sal<-Sal%>% 
+  filter(is.na(Average_Salinity) == FALSE)
+
+
+ 
+#Grid so Temp and Sal
+ p5<-ggplot(data=Temp, aes(x=Trial_start_date, y=Average_Temp))+ geom_bar(stat = "identity", width=0.5) + theme_bw()+
+   theme(axis.text.x = element_text(angle = 90))+
+   theme(axis.text = element_text(size = 6))+
+   ggtitle("Temperature")+
+   xlab("Trial Start Date") + ylab("Temperature")
+ p6<-ggplot(data=Sal, aes(x=Trial_start_date, y=Average_Salinity)) + theme_bw()+
+   geom_bar(stat = "identity", width=0.5) + 
+   theme(axis.text.x = element_text(angle = 90))+
+   theme(axis.text = element_text(size = 6))+
+   ggtitle("Salinity")+
+   xlab("Trial Start Date") + ylab("Salinity")
+ 
+ grid.arrange(p5, p6, nrow = 1, top = "Water Quality") 
+ 
+```
+\pagebreak
+
+# **References**
+
+Botton, M.L., C.N. Jr. Shuster, and J.A. Keinath. 2003. Horseshoe crabs in a food web: who eats whom?
+In: Shuster, C.N. Jr., R.B. Barlow, and H.J. Brockmann, editors. The American horseshoe crab.
+Cambridge (MA): Harvard University Press. p. 133-150.
+
+David Smith (IUCN SSC Horseshoe Crab Specialist Group / U. S. Geological Survey, W. V., Mark Beekey (IUCN SSC Horseshoe Crab Specialist Group / Department of Biological Sciences, S. H. U., Group), J. B. (IUCN S. H. C. S., Timothy King (IUCN SSC Horseshoe Crab Specialist Group / U. S. Geological Survey, W. V., Michael Millard (IUCN SSC Horseshoe Crab Specialist Group / U. S. Fish and Wildlife Service, P., & Jaime Zaldívar-Rae (IUCN SSC Horseshoe Crab Specialist Group / Anáhuac Mayab University, Y. (2016). IUCN Red List of Threatened Species: Limulus polyphemus. IUCN Red List of Threatened Species. https://www.iucnredlist.org/en
+
+Fisher, R. (1970). The Use Of Bait Bags To Reduce The Need For Horseshoe Crab As Bait In The Virginia Whelk Fishery. https://doi.org/10.21220/M2-FJSZ-JJ36
+
+Kaplan, I. M., & Boyer, B. C. (1992). Monitoring Marine Resources: Ecological and Policy Implications Affecting the Scientific Collecting and Commercial Value of New England Conch (Busycon). The Biological Bulletin, 183(2), 379–380. https://doi.org/10.1086/BBLv183n2p379
+
+Massachusetts Division of Marine Fisheries (MA DMF). 2019.Data provided by Erich Druskat.
+
+Nelson, G., Wilcox, S. H., Glenn, R., & Pugh, T. L. (2018, April). A Stock Assessment of Channeled Whelk (Busycotypus canaliculatus) in Nantucket Sound, Massachusetts. Massachusetts Division of Marine Fisheries. https://www.mass.gov/doc/marine-fisheries-technical-report-66/download
+
+Polito, K. E., Theoharides, K. A., Amidon, R. S., & Mckiernan, D. J. (2021). CHARLES D. BAKER Governor. 1.
+
+Wakefield, K. (n.d.). Saving the Horseshoe Crab: Designing a More Sustainable Bait for Regional Eel and Conch Fisheries. 8.
+
